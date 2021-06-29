@@ -1,1 +1,1 @@
-# www.sscenariohunting.com
+# www.scenariohunting.com
