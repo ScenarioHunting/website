@@ -1,4 +1,6 @@
-Scenario Hunting is about switching from modeling space (like Event Storming) into implementation. It helps to reason about causal consistency across design elements before starting to code, and then automatically forge the abstract artifacts into concrete test code, to get instant feedback from the design decisions, and streamline communication and training.
+Scenario Hunting is about how to switch from modeling space into implementation. It asks to verify the causality between design elements before starting to code, and then automatically forge the abstract artifacts into concrete test code, to get instant feedback from the design decisions, and streamline communication and training.
+
+
 
 
 ![Demo](https://raw.githubusercontent.com/ScenarioHunting/ScenarioHunting/develop/Demo.png "Demo image")
