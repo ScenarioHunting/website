@@ -1,5 +1,11 @@
 theme: jekyll-theme-cayman
 title: 'Scenario Hunting'
+#tagline: ''
+production_url : https://scenariohunting.com
+author:
+  name: Mohsen Bazmi
+  twitter: @MohsenBazmi
+
 description: "Don't code. Model, then solve the puzzle!"
 github:
   repository_url: "https://github.com/ScenarioHunting/ScenarioHunting"
