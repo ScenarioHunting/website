@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 title: 'Scenario Hunting'
-#tagline: ''
+tagline: ''
 production_url : https://scenariohunting.com
 author:
   name: Mohsen Bazmi
