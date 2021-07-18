@@ -9,7 +9,7 @@ Scenario Hunting is about how to switch from modeling space into implementation.
 ### Why Scenario Hunting?
 
 * It helps to make the right decision, based on the right data, at the right level while swithing from design to implementation. 
-* It uses a language which can be easily understood by both humans and machines. 
+* It communicates using a simple, abstract, but familiar language which can be easily understood by both humans and machines. 
 * It reduces the gap between design and implementation. 
 * It encourages you to focus on model and behavior  first, and then switch to code. 
 * It assists you to explicitly uncover the causality behind the elements of the model, and discover the missing ones. 
