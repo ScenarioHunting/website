@@ -7,13 +7,14 @@ Scenario Hunting is about how to switch from modeling space into implementation.
 
 
 ### Why Scenario Hunting?
+
 * It helps to make the right decision, based on the right data, at the right level while swithing to implementation. 
 * It uses a language which can be easily understood by both humans and machines. 
 * It reduces the gap between design and implementation. 
 * It encourages you to focus on model and behavior  first, and then switch to code. 
 * It assists you to explicitly uncover the causality behind the elements of the model, and discover the missing ones. 
 * It helps to design drive test scenarios as abstract concepts and then extract them as code. 
-* It helps new developers to onboard spontaneously, and quickly get familiar with the standard coding, and test automation policies. 
+* It helps new developers to onboard spontaneously, and quickly get familiar with the coding standards, and test automation policies. 
 * It improves confidence and delivery speed. 
 * It greatly reduces the cost of yoyo problem, human memory errors, and mis-translation of model to the code. 
 * It's designed as a very simple and straightforward workflow. 
