@@ -1,4 +1,4 @@
-theme: just-the-docs #jekyll-theme-cayman
+theme: jekyll-theme-cayman
 title: 'Scenario Hunting'
 
 production_url : https://scenariohunting.com
