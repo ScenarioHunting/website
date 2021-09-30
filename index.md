@@ -1,4 +1,4 @@
-Scenario Hunting leads to ensure the causal consistency across design elements before starting to code, then it uses a tool to automatically forge the abstract artefacts into concrete test code, to get instant feedback from the design decisions, and streamline communication, and training. 
+Scenario Hunting the gap between design and code. It's the quickest way to spike the design, and to cover the model by safety net. Scenario Hunting leads to causal consistency across design elements before starting to code. It automatically forges the abstract artefacts into concrete test code, to get instant feedback from the design decisions, and streamline communication, onboarding, and training. 
 
 
 
