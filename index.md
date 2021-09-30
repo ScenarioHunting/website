@@ -1,4 +1,4 @@
-<div style="text-align: center"> Scenario Hunting is a method for switching from modeling space into implementation. </div>
+<div style="text-align: center"> Scenario Hunting is a method for switching from modeling space to implementation space. </div>
 
 It leads to ensure the causal consistency across design elements before starting to code, then it uses a tool to automatically forge the abstract artefacts into concrete test code, to get instant feedback from the design decisions, and streamline communication, and training.
 
