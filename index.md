@@ -1,6 +1,4 @@
-<div style="text-align: center"> Don't code. Model, then solve the puzzle! </div>
-
-It leads to ensure the causal consistency across design elements before starting to code, then it uses a tool to automatically forge the abstract artefacts into concrete test code, to get instant feedback from the design decisions, and streamline communication, and training.
+Scenario Hunting leads to ensure the causal consistency across design elements before starting to code, then it uses a tool to automatically forge the abstract artefacts into concrete test code, to get instant feedback from the design decisions, and streamline communication, and training. Don't code. Model, then solve the puzzle!
 
 
 
