@@ -1,4 +1,4 @@
-Scenario Hunting is a process of switching from modeling space to implementation space. It reduces the gap between design and implementation. It's the fastest way to spike the design, and to cover the model by safety net. It helps to streamline communication, onboarding, and training. 
+Scenario Hunting is a process of switching from modeling space to implementation space. It's the fastest way to spike the design, and to cover the model by safety net. Scenario Hunting reduces the gap between design and implementation and helps to streamline communication, training, and onboarding. 
 
 ![Demo](https://raw.githubusercontent.com/ScenarioHunting/ScenarioHunting/develop/Demo.png "Demo image")
 
