@@ -20,6 +20,7 @@ Scenario Hunting leads to causal consistency assurance across design elements be
 * It helps to discover and extract not only the behavior of the subject under test, but also it's public API in terms of fields of types, and classes and signatures of functions, and methods. 
 * It helps to make the right decision, based on the right data, at the right level while switching from design to implementation. 
 * It's collaboration friendly. 
+* It helps business people and developers have deeper insight and communication.
 
 
 ### How to install
