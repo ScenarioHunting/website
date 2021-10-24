@@ -1,4 +1,4 @@
-# [Scenario Hunting](.) 
+# Scenario Hunting
 Switching from modeling space to implementation space.
 
 Watch this 5 minuets demo:
