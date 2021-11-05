@@ -1,5 +1,5 @@
 # Scenario Hunting
-Switching from modeling space to implementation space.
+Switching from event storming or event modeling to implementation space.
 
 #### 5 Minute Demo:
 
