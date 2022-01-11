@@ -1,5 +1,8 @@
-# Scenario Hunting
-Switching from event storming or event modeling to implementation space.
+## Simple method to solve complex problems
+* Develop faster, more accurate
+* Focus on what deserves your attention
+* Let code scream the design
+
 
 #### 5 Minute Demo:
 
