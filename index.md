@@ -10,7 +10,7 @@
 # Scenario Hunting
 <ul>
   <li> Simple method to solve complex problems </li>
-  <li> Feedbacks have never been this immediate</li>
+  <li> Detect feedbacks early</li>
   <li> Develop faster, more accurate</li>
   <li> Focus on what deserves your attention</li>
   <li> Code smarter, not harder</li>
