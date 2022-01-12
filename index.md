@@ -7,7 +7,7 @@
   <li> Let code scream the design</li>
 </ul>
 
-![](./scenario-hunting-process.jpg){: style="float: right; width: 100px"}
+![Scenario Hunting Process](./scenario-hunting-process.jpg){: style="float: right; width: 450px"}
 
 
 #### 5 Minute Demo:
