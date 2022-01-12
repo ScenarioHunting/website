@@ -1,6 +1,6 @@
 
 
-<img src="./paradigm-shift-process.jpg" alt="Scenario Hunting Process"/>
+<img src="./linear-sh-process-view.jpg" alt="Scenario Hunting Process"/>
 
 
 <br/>  
