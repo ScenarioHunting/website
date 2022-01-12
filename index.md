@@ -35,4 +35,5 @@ Simply click [here](https://miro.com/oauth/authorize/?response_type=code&client_
 
 ### Documentation
 [Quick Start](https://docs.scenariohunting.com/#/content/Quick-Start/Hunting-a-scenario/article)
+
 [See](https://docs.scenariohunting.com) the documentation.
