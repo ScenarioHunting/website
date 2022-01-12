@@ -1,5 +1,5 @@
 # Scenario Hunting
-<ul style="float: left">
+<ul style="float: left; witdh: 50px">
   <li> Simple method to solve complex problems </li>
   <li> Develop faster, more accurate            </li>
   <li> Focus on what deserves your attention</li>
@@ -7,7 +7,7 @@
   <li> Let code scream the design</li>
 </ul>
 
-![](./scenario-hunting-process.jpg){: style="float: right"}
+![](./scenario-hunting-process.jpg){: style="float: right; width: 100px"}
 
 
 #### 5 Minute Demo:
