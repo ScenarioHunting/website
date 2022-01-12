@@ -14,7 +14,7 @@
   <li> Develop faster, more accurate</li>
   <li> Let code scream the design</li>
   <li> Code smarter, not harder</li>
-  <li> Detect feedbacks early</li>
+  <li> Shorten feedback loops</li>
 </ul>
 
 <br/>  
