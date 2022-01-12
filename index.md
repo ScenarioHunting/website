@@ -1,3 +1,12 @@
+
+
+<img src="./scenario-hunting-process-linear.jpg" alt="Scenario Hunting Process"/>
+
+
+<br/>  
+<br/>  
+<br/>  
+
 # Scenario Hunting
 <ul>
   <li> Simple method to solve complex problems </li>
@@ -10,15 +19,6 @@
 <br/>  
 <br/>  
 <br/>  
-
-<img src="./scenario-hunting-process-linear.jpg" alt="Scenario Hunting Process"/>
-
-
-<br/>  
-<br/>  
-<br/>  
-
-
 #### 5 Minute Demo:
 
 <iframe style="width:100%" height="524" src="https://www.youtube.com/embed/Ou_TkeMsfXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
