@@ -5,7 +5,6 @@
 
 <br/>  
 <br/>  
-<br/>  
 
 # Scenario Hunting
 <ul>
@@ -17,7 +16,6 @@
   <li> Shorten feedback loops</li>
 </ul>
 
-<br/>  
 <br/>  
 <br/>  
 
