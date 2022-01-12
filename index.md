@@ -1,13 +1,14 @@
 # Scenario Hunting
-* Develop faster, more accurate
-* Focus on what deserves your attention
-* Let code scream the design
-* Simple method to solve complex problems
+<ul style="float: left">
+  <li> Simple method to solve complex problems </li>
+  <li> Develop faster, more accurate            </li>
+  <li> Focus on what deserves your attention</li>
+  <li> Code smarter, not harder</li>
+  <li> Let code scream the design</li>
+</ul>
 
-<br/>
-<br/>
-<br/>
-<br/>
+![](./scenario-hunting-process.jpg){: style="float: right"}
+
 
 #### 5 Minute Demo:
 
