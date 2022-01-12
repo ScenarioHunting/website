@@ -10,10 +10,10 @@
 # Scenario Hunting
 <ul>
   <li> Simple method to solve complex problems </li>
-  <li> Develop faster, more accurate            </li>
+  <li> Feedbacks have never been this immediate</li>
+  <li> Develop faster, more accurate</li>
   <li> Focus on what deserves your attention</li>
   <li> Code smarter, not harder</li>
-  <li> Some feedbacks have never been this short</li>
   <li> Let code scream the design</li>
 </ul>
 
