@@ -1,5 +1,3 @@
-### Overview
-
 <img src="./sh-process-view.jpg" alt="Scenario Hunting Process"/>
 
 
