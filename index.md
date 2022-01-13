@@ -33,4 +33,6 @@ Simply click [here](https://miro.com/oauth/authorize/?response_type=code&client_
 ### Documentation
 * [Quick Start](https://docs.scenariohunting.com/#/content/Quick-Start/Hunting-a-scenario/article)
 
-* [See](https://docs.scenariohunting.com) the documentation.
+* [Documentation](https://docs.scenariohunting.com)
+
+* [Github](https://github.com/ScenarioHunting/ScenarioHunting)
