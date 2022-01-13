@@ -1,4 +1,4 @@
-
+# Scenario Hunting
 
 <img src="./sh-process-view.jpg" alt="Scenario Hunting Process"/>
 
@@ -6,7 +6,7 @@
 <br/>  
 <br/>  
 
-# Scenario Hunting
+
 <ul>
   <li> Simple method to solve complex problems </li>
   <li> Focus on what deserves your attention</li>
