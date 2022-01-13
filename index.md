@@ -6,12 +6,14 @@
 
 # Scenario Hunting
 <ul>
-  <li> Simple, straiforward method for a rough process </li>
+  <li> Simple method to solve a rough process </li>
   <li> Focus on what deserves your attention</li>
   <li> Develop faster, more accurate</li>
-  <li> Let code scream the design</li>
+<!--  <li> Let code scream the design</li>
   <li> Code smarter, not harder</li>
+-->
   <li> Shorten feedback loops</li>
+
 </ul>
 
 <br/>  
