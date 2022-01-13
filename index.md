@@ -6,7 +6,7 @@
 
 # Scenario Hunting
 <ul>
-  <li> Simple method to solve complex problems </li>
+  <li> Simple, straiforward method for a rough process </li>
   <li> Focus on what deserves your attention</li>
   <li> Develop faster, more accurate</li>
   <li> Let code scream the design</li>
