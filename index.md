@@ -1,4 +1,4 @@
-<img src="https://cdn.jsdelivr.net/gh/ScenarioHunting/website/sh-process-view.jpg" alt="Scenario Hunting Process"/>
+<img src="https://cdn.jsdelivr.net/gh/ScenarioHunting/website/sh-process-view-sm.jpg" alt="Scenario Hunting Process"/>
 
 
 <br/>  
