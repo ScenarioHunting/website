@@ -34,6 +34,11 @@ Simply click [here](https://miro.com/oauth/authorize/?response_type=code&client_
 <br/>  
 <br/>  
 
+<img src="https://cdn.jsdelivr.net/gh/ScenarioHunting/website/es-to-sh-flow.jpg" alt="Scenario Hunting Process"/>
+
+<br/>
+<br/>
+
 ### Documentation
 * [Github](https://github.com/ScenarioHunting/ScenarioHunting)
 
