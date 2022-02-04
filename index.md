@@ -20,6 +20,11 @@
 <br/>  
 
 
+<img src="https://cdn.jsdelivr.net/gh/ScenarioHunting/website/es-to-sh.jpg" alt="Event Storming to Scenario Hunting"/>
+
+<br/>
+<br/>
+
 #### 5 Minute Demo:
 
 <iframe style="width:100%" height="524" src="https://www.youtube.com/embed/Ou_TkeMsfXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -34,10 +39,6 @@ Simply click [here](https://miro.com/oauth/authorize/?response_type=code&client_
 <br/>  
 <br/>  
 
-<img src="https://cdn.jsdelivr.net/gh/ScenarioHunting/website/es-to-sh.jpg" alt="Event Storming to Scenario Hunting"/>
-
-<br/>
-<br/>
 
 ### Documentation
 * [Github](https://github.com/ScenarioHunting/ScenarioHunting)
