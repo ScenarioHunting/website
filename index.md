@@ -34,7 +34,7 @@ Simply click [here](https://miro.com/oauth/authorize/?response_type=code&client_
 <br/>  
 <br/>  
 
-<img src="https://cdn.jsdelivr.net/gh/ScenarioHunting/website/es-to-sh-flow.jpg" alt="Scenario Hunting Process"/>
+<img src="https://cdn.jsdelivr.net/gh/ScenarioHunting/website/event-storming-to-sh.jpg" alt="Event Storming to Scenario Hunting"/>
 
 <br/>
 <br/>
