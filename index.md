@@ -8,7 +8,7 @@
 <ul>
   <li> Simple method to solve a rough process </li>
   <li> Focus on what deserves your attention</li>
-  <li> Develop faster, more accurate</li>
+  <li> Develop faster, more accurately</li>
 <!--  <li> Let code scream the design</li>
   <li> Code smarter, not harder</li>
 -->
