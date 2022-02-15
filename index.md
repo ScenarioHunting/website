@@ -20,7 +20,7 @@
 <br/>  
 
 
-<img src="https://cdn.jsdelivr.net/gh/ScenarioHunting/website/es-to-sh.jpg" alt="Event Storming to Scenario Hunting"/>
+<img src="https://cdn.jsdelivr.net/gh/ScenarioHunting/website/event-storming-to-scenario-hunting.jpg" alt="Event Storming to Scenario Hunting"/>
 
 <br/>
 <br/>
