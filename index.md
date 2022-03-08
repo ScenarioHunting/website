@@ -10,10 +10,10 @@ Scenario Hunting is a design first test method that helps developers implement h
 <ul>
   <li> Easy to use </li>
   <li> Collaborative, human-centered </li>
+  <li> Leads to faster development, but more accurately </li>
   <li> Focuses you on what deserves your attention </li>
-  <li> Helps you develop faster, but more accurately </li>
   <li> Minimizes gap between visual modeling and implementation </li>
-  <li> Minimizes cognitive switching penalty</li>
+  <li> Minimizes cognitive switching penalty </li>
   <li> Plays great with Mob Programming </li>
 <!--  <li> Let code scream the design</li>
   <li> Code smarter, not harder</li>
