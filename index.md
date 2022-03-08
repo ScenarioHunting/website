@@ -1,4 +1,4 @@
-Scenario Hunting is a design first test method that helps developers implement high-quality features from visual event driven models such as Event Storming. 
+Scenario Hunting is a design first test method that helps developers implement high-quality features from visual event driven models such as Event Storming. Scenario Hunters' focus of attention is allways the behavior. The cause and the effect, and the role the scenario under implementation plays from the bigger picture perpective of the story.
 
 <img src="https://cdn.jsdelivr.net/gh/ScenarioHunting/website/sh-process-view-sm.jpg" alt="Scenario Hunting Process"/>
 
