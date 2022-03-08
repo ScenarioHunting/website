@@ -46,7 +46,7 @@ Simply click [here](https://miro.com/oauth/authorize/?response_type=code&client_
 <br/>  
 
 
-### Documentation
+### Resources
 * [Github](https://github.com/ScenarioHunting/ScenarioHunting)
 
 * [Quick Start](https://docs.scenariohunting.com/#/content/Quick-Start/Installation/article)
