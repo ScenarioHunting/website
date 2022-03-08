@@ -1,3 +1,5 @@
+Scenario Hunting is a design first test method that helps developers implement high-quality features from visual event driven models such as Event Storming. 
+
 <img src="https://cdn.jsdelivr.net/gh/ScenarioHunting/website/sh-process-view-sm.jpg" alt="Scenario Hunting Process"/>
 
 
@@ -9,6 +11,10 @@
   <li> Simple method to solve a rough process </li>
   <li> Focus on what deserves your attention</li>
   <li> Develop faster, more accurately</li>
+  <li> Collaborative </li>
+  <li> Plays great with Mob </li>
+  <li> Minimizes the gap between visual modeling and implementation </li>
+  <li> Minimizes cognitive switching penalty</li>
 <!--  <li> Let code scream the design</li>
   <li> Code smarter, not harder</li>
 -->
