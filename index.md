@@ -11,7 +11,7 @@ Scenario Hunting is a design first test method. It comprises a series of small s
 <ul>
   <li> Easy to use </li>
   <li> Collaborative, human-centered </li>
-  <li> Plays great with Mob Programming </li>
+  <li> Perfect complementary for Mob Programming </li>
   <li> Leads to faster development, but more accurately </li>
   <li> Focuses you on what deserves your attention </li>
   <li> Minimizes gap between visual modeling and implementation </li>
