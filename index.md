@@ -1,4 +1,4 @@
-Scenario Hunting is a design first test method. It comprises a series of steps that turn visual design artifacts (like Event Storming artifacts) to high-quality pieces of software. During implementation, scenario hunters' focus of attention is on design, behavior, and the effect of the scenario under implementation on the system from bigger picture perspective.
+Scenario Hunting is a design first test method. It comprises a series of steps that turn visual design artifacts (like Event Storming sticky notes) to high-quality pieces of software. During implementation, scenario hunters' focus of attention is on design, behavior, and the effect of the scenario under implementation on the system from bigger picture perspective.
 
 
 <img src="https://cdn.jsdelivr.net/gh/ScenarioHunting/website/sh-process-view-sm.jpg" alt="Scenario Hunting Process"/>
