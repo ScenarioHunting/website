@@ -40,15 +40,15 @@ Scenario Hunting is a design first test method. It comprises a series of small s
 <br/>  
 <br/>  
 
-### How to install
-Simply click [here](https://miro.com/oauth/authorize/?response_type=code&client_id=3074457356753256770&redirect_uri=%2Fconfirm-app-install%2F) to install the [Miro](https://miro.com) addon.
+### Install the Test Framework
+Simply click [here](https://miro.com/oauth/authorize/?response_type=code&client_id=3074457356753256770&redirect_uri=%2Fconfirm-app-install%2F) to install the [open source](https://github.com/ScenarioHunting/ScenarioHunting) [Miro](https://miro.com) addon.
 
 <br/>  
 <br/>  
 
 
 ### Resources
-* [Github](https://github.com/ScenarioHunting/ScenarioHunting)
+* [GitHub](https://github.com/ScenarioHunting/ScenarioHunting)
 
 * [Quick Start](https://docs.scenariohunting.com/#/content/Quick-Start/Installation/article)
 
