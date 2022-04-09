@@ -1,4 +1,4 @@
-<b>Scenario Hunting is design first test method. </b>
+<h3 align="center">Scenario Hunting is design first test method. </h3>
 
 It comprises a series of small steps to translate visual design artifacts (like Event Storming sticky notes) into high-quality pieces of software. 
 During implementation, developers' focus is on the role the scenario under test plays in the system from a bigger picture perspective.
