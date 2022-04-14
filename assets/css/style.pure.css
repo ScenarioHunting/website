@@ -190,9 +190,9 @@ a:hover {
     text-align: center;
     background-color: #159957;
     /* background-image: url("https://cdn.jsdelivr.net/gh/ScenarioHunting/website/assets/images/es-to-sh.jpg"); */
-    /* background-image: linear-gradient(120deg, #155799, #159957) */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.83), rgba(47, 54, 66, 0.75)),
-        url("https://cdn.jsdelivr.net/gh/ScenarioHunting/website/assets/images/es-to-sh.jpg");
+    background-image: linear-gradient(120deg, #155799, #159957);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.83) 165px, rgba(47, 54, 66, 0.75)),
+        url("https://cdn.jsdelivr.net/gh/ScenarioHunting/website/assets/images/es-to-sh.jpg"); */
     background-size: contain;
 }
 
