@@ -1,3 +1,32 @@
+.col {
+    width: 13em;
+    text-align: center;
+    margin: 5px;
+
+    background: azure;
+}
+
+.tiles .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.col div:last-child {
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.col div:first-child {
+    background-color: #155799;
+    color: white;
+    height: 42px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap);
 
 html {
@@ -5,6 +34,32 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
+
+
+
+@media screen and (min-width:64em) {
+    .main-content {
+        max-width: 72rem;
+        padding: 1rem 1rem;
+        margin: 0 auto;
+        font-size: 1.1rem
+    }
+}
+
+@media screen and (min-width:42em) and (max-width:64em) {
+    .main-content {
+        padding: 2rem 4rem;
+        font-size: 1.1rem
+    }
+}
+
+@media screen and (max-width:42em) {
+    .main-content {
+        padding: 2rem 1rem;
+        font-size: 1rem
+    }
+}
+
 
 body {
     margin: 0
@@ -83,7 +138,7 @@ a:hover {
 .btn {
     display: inline-block;
     margin-bottom: 1rem;
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, .7) !important;
     background-color: rgba(255, 255, 255, .08);
     border-color: rgba(255, 255, 255, .2);
     border-style: solid;
@@ -134,7 +189,11 @@ a:hover {
     color: #fff;
     text-align: center;
     background-color: #159957;
-    background-image: linear-gradient(120deg, #155799, #159957)
+    /* background-image: url("https://cdn.jsdelivr.net/gh/ScenarioHunting/website/assets/images/es-to-sh.jpg"); */
+    /* background-image: linear-gradient(120deg, #155799, #159957) */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.83), rgba(47, 54, 66, 0.75)),
+        url("https://cdn.jsdelivr.net/gh/ScenarioHunting/website/assets/images/es-to-sh.jpg");
+    background-size: contain;
 }
 
 @media screen and (min-width:64em) {
@@ -208,29 +267,6 @@ a:hover {
 
 .main-content :first-child {
     margin-top: 0
-}
-
-@media screen and (min-width:64em) {
-    .main-content {
-        max-width: 64rem;
-        padding: 2rem 6rem;
-        margin: 0 auto;
-        font-size: 1.1rem
-    }
-}
-
-@media screen and (min-width:42em) and (max-width:64em) {
-    .main-content {
-        padding: 2rem 4rem;
-        font-size: 1.1rem
-    }
-}
-
-@media screen and (max-width:42em) {
-    .main-content {
-        padding: 2rem 1rem;
-        font-size: 1rem
-    }
 }
 
 .main-content img {
