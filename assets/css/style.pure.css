@@ -1,14 +1,15 @@
 .col {
-    width: 13em;
     text-align: center;
     margin: 5px;
+    background-color: #1557991a;
 
-    background: azure;
 }
 
 .tiles .row {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(15em, 15em));
+    grid-gap: 1em;
+    justify-content: center;
 }
 
 .col div:last-child {
@@ -17,7 +18,8 @@
 }
 
 .col div:first-child {
-    background-color: #155799;
+    background-color: #159957;
+    /* background-color: #155799; */
     color: white;
     height: 42px;
     text-align: center;
