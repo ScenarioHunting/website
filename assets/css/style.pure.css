@@ -29,7 +29,8 @@
     font-weight: bold;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap);
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap); */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap|Helvetica+Neue|Helvetica|Arial|sans-serif);
 
 html {
     font-family: sans-serif;
