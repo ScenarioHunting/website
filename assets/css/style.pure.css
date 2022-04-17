@@ -1,20 +1,9 @@
 .col {
     text-align: center;
     margin: 5px;
-    background-color: #1557991a;
+    /* background-color: #1557991a; */
+    background-color: #f4faff;
 
-}
-
-.tiles .row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15em, 15em));
-    grid-gap: 1em;
-    justify-content: center;
-}
-
-.col div:last-child {
-    padding: 5px;
-    padding-top: 10px;
 }
 
 .col div:first-child {
@@ -28,6 +17,20 @@
     display: flex;
     font-weight: bold;
 }
+
+.col div:last-child {
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.tiles .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15em, 15em));
+    grid-gap: 1em;
+    justify-content: center;
+}
+
+
 
 /* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap); */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap|Helvetica+Neue|Helvetica|Arial|sans-serif);
@@ -147,7 +150,9 @@ a:hover {
     border-style: solid;
     border-width: 1px;
     border-radius: .3rem;
-    transition: color .2s, background-color .2s, border-color .2s
+    transition: color .2s, background-color .2s, border-color .2s;
+    width: 151px;
+    margin: auto;
 }
 
 .btn:hover {
@@ -177,7 +182,6 @@ a:hover {
 @media screen and (max-width:42em) {
     .btn {
         display: block;
-        width: 100%;
         padding: .75rem;
         font-size: .9rem
     }
@@ -308,7 +312,8 @@ a:hover {
 .site-footer {
     padding-top: 2rem;
     margin-top: 2rem;
-    border-top: solid 1px #eff0f1
+    color: #f0f9ff;
+    background-color: #282d32;
 }
 
 @media screen and (min-width:64em) {
@@ -327,4 +332,18 @@ a:hover {
     .site-footer {
         font-size: .9rem
     }
+}
+
+
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
 }
