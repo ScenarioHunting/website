@@ -203,6 +203,18 @@ a:hover {
     background-size: contain;
 }
 
+.page-footer {
+
+    height: 10px;
+    color: #fff;
+    background-color: #159957;
+    /* background-image: url("https://cdn.jsdelivr.net/gh/ScenarioHunting/website/assets/images/es-to-sh.jpg"); */
+    background-image: linear-gradient(120deg, #155799, #159957);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.83) 165px, rgba(47, 54, 66, 0.75)),
+        url("https://cdn.jsdelivr.net/gh/ScenarioHunting/website/assets/images/es-to-sh.jpg"); */
+    background-size: contain;
+}
+
 @media screen and (min-width:64em) {
     .page-header {
         padding: 5rem 6rem
@@ -338,7 +350,7 @@ a:hover {
 
 .reveal {
     position: relative;
-    transform: translateY(150px);
+    transform: translateY(40px);
     opacity: 0;
     transition: 1s all ease;
 }
@@ -346,4 +358,15 @@ a:hover {
 .reveal.active {
     transform: translateY(0);
     opacity: 1;
+}
+
+.page-header {
+    color: #fff;
+    text-align: center;
+    background-color: #159957;
+    /* background-image: url("https://cdn.jsdelivr.net/gh/ScenarioHunting/website/assets/images/es-to-sh.jpg"); */
+    background-image: linear-gradient(120deg, #155799, #159957);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.83) 165px, rgba(47, 54, 66, 0.75)),
+        url("https://cdn.jsdelivr.net/gh/ScenarioHunting/website/assets/images/es-to-sh.jpg"); */
+    background-size: contain;
 }
