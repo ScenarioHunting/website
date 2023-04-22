@@ -370,3 +370,48 @@ a:hover {
         url("https://cdn.jsdelivr.net/gh/ScenarioHunting/website/assets/images/es-to-sh.jpg"); */
     background-size: contain;
 }
+
+/* blockquote{
+    text-align: center;
+    width:70%; margin: auto;
+}*/
+blockquote cite {
+    float: right;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+
+blockquote {
+    
+    margin: 50px auto;
+
+    font-style: italic;
+    color: #555555;
+    padding: 1.2em 30px 1.2em 80px;
+    border-left: 8px solid #159957;
+    line-height: 1.6;
+    position: relative;
+    background: #fffefe;
+}
+
+blockquote::before {
+
+    content: "\201C";
+    color: #159957;
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+
+blockquote::after {
+    content: '';
+}
+
+blockquote span {
+    display: block;
+    color: #333333;
+    margin-top: 1em;
+}
