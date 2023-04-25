@@ -104,7 +104,8 @@
     <p style="text-align: center;">
 
 
-        Scenario Hunting is an approach to turn visual design artifacts (like Event Storming sticky notes) into code while enhancing the design.
+        Scenario Hunting is an approach to turn visual design artifacts (like Event Storming sticky notes) into code
+        while enhancing the design.
 
         <br>
         <br>
@@ -133,7 +134,7 @@
 
         <h3>What is Scenario Hunting and Why it Matters?</h3>
         <p>
-            Scenario hunting accelerates revealing deeper insights into your models. The quickness of the process allows
+            Scenario Hunting accelerates revealing deeper insights into your models. The quickness of the process allows
             individual developers to asynchronously ensure the practicalities of the proposed model during modeling
             workshops. Developers hunt for the most critical scenarios, grasp valuable feedback, and share it with
             stakeholders to update the model collaboratively and make more informed decisions.
@@ -148,15 +149,14 @@
         </p>
 
         <p>
-            We are humans. We’re not compilers. We’re unable to compile the hypothetical model on sticky notes. So we’re
-            unable
-            to ensure that the model is practical. The model represented on sticky notes may not integrate into the rest
-            of the
-            system. Our
-            theoretical model may not be consistent. An algorithm may not be implementable. The time complexity of a
-            mathematical algorithm may turn out to be factorial, and so on. Yes, these are the details. But some of them
-            can
-            impact the model, if not the business.
+            We are humans. We’re not compilers. We’re unable to compile the hypothetical model on sticky notes in our
+            brains.
+            But we need to ensure that the model is practical.
+            The theoretical model represented on sticky notes may not be consistent.
+            It may not integrate into the rest of the system.
+            An algorithm may not be implementable.
+            The time complexity of a mathematical algorithm may turn out to be factorial, and so on.
+            Yes, these are the details. But some of them impact the model, if not the business.
         </p>
         <p>
 
@@ -164,8 +164,7 @@
         <blockquote>
             “Designing information systems is kind of fractal. There are things that matter at all levels of detail, and
             there are tiny details that invalidate grand assumptions, and there are grand assumptions that prevent
-            effective
-            progress at the level of tiny details.”
+            effective progress at the level of tiny details.”
             <br>
             <cite>Dave Farley</cite>
         </blockquote>
@@ -173,16 +172,22 @@
         </p>
 
         <p>
-            The core domain is usually complex. If the core domain isn’t complex enough, it might lack a significant
-            competitive
-            advantage. We often arrange modeling workshops mainly to tackle the complexity of the core domain, and the
-            complexity may reside at its different levels.
+            We arrange modeling workshops like Event Storming mainly to tackle the complexity.
+            We take the general idea, break it down, and add more and more details to make it more transparent and
+            practical.
+            The ultimate model is the working code (which also reflects the model's purpose, of course).
+
+
+
         </p>
+        <br>
+        <img src="assets/images/levels.jpg" alt="Event Storming to Scenario Hunting">
+        <br>
+        <br>
         <p>
-            While design can be considered a single concern at all levels, we need different tools to tackle it at
-            different levels.
-            The ultimate model is the working code. As long as we don’t have that working code, the model is
-            hypothetical.
+            The workshop provides a common ground where both technical and non-technical stakeholders can communicate on
+            to share their knowledge and ideas and carve models out of them.
+            Finally, the model proposals must be tested to ensure they work in practice.
         </p>
 
         <p>
@@ -194,19 +199,34 @@
         </p>
 
         <p>
+            While <b>working</b> code is a side effect of learning, we can’t directly write code to solve complex high-level
+            business problems so we use sticky notes for that. However, code has a significant advantage. You can run and test it, but you can’t
+            compile, run, or test sticky notes. They need to be turned into code first.
+        </p>
 
-            The problem is that sticky notes are not directly compilable. We can’t run and test them to see if the model
-            works. The less certain we are about one part of the model, the less confidently we can design its
-            dependencies. So we need to be able to turn the model behind those sticky notes into code to compile and
-            test them without
-            losing track. Scenario hunting minimizes the paradigm shift penalty at that point.
+
+        <p>
+            Translating theoretical models into code takes longer than feasible during workshops.
+            Postponing the translation can make the practicalities of the model proposal uncertain.
+            This lack of certainty can in turn, hinder the design of the model's dependencies, as it is challenging to
+            have confidence in a model without a clear understanding of its practical implications.
+        </p>
+
+        <p>
+            In short, the impedance mismatch between sticky notes and code is a bottleneck for the design
+            process, and Scenario Hunting minimizes the paradigm shift penalty without losing track.
+
         </p>
         <p>
-            It helps you to quickly drill down into a small piece of the model at a time. Turn it into code and run the
-            tests.
-            Even if a single test fails after implementing the scenario, it informs you that the new scenario
-            cannot be integrated with the existing code base or that the proposed model is inconsistent and it’s
-            deviating from the planned expectations in practice.
+            Scenario Hunting helps you to drill down quickly into a small piece of the model at a time.
+            Using Scenario Hunting, you translate a small piece of the model into a test case.
+            The test shapes a guardrail that keeps your implementation on the model’s road and notifies you as soon as
+            it loses it. It helps you integrate the model into code bit by bit, see if it fits in, and leverage the
+            compiler to notify you with meaningful feedback along the way.
+        </p>
+        <p>
+            When implementing a new scenario, a failed test can indicate that the scenario is incompatible with the existing code base, the model is inconsistent, or the proposed model doesn't align with the expected outcomes.
+            In these cases, it is important to reevaluate the model and make necessary adjustments before moving forward with the implementation.
         </p>
         <br>
         <br>
@@ -219,60 +239,59 @@
         <p>
 
 
-            When we separate the modeling “phase” from the implementation “phase”, not all stakeholders might be
-            available during the
-            implementation;
-            even if they were, they wouldn’t have easily remembered the context; even if they did, it wouldn't be
-            feasible to interrupt them all each time to gather and make a new decision.
+            When we separate the modeling and implementation "phases", we extend the feedback loop too long.
+            Suppose the model turns out to be inconsistent during implementation and needs adjustments. 
+            In that case, it wouldn't be possible to interrupt and gather all the stakeholders and bring them back to the context to decide how to modify the model every time.
         </p>
-        <br>
         <p>
 
-            Scenario hunting leverages the risk. During modeling workshops, developers are distributed among
-            groups
-            of people and hunt for scenarios from the most indeterminate parts of the model to ensure their
-            practicalities.
+            Scenario Hunting can be used to mitigate the risk. 
+            During the modeling workshop, developers are distributed among groups of stakeholders and hunt for scenarios from the most indeterminate parts of the model.
+            By hunting each scenario, they learn more about the model's practical implications and how compatabile it is with the existing code.
         </p>
         <br>
         <p>
-            After the workshop, they continue hunting scenarios and grasping deeper insights into the model. As they
+            After the workshop, developers continue hunting scenarios and grasping deeper insights into the model. As they
             implement
-            scenarios, they mark them on the board and share their feedback on the board when necessary. The feedback
+            scenarios, they mark them on the board and share their feedback there when necessary. The feedback
             may affect
-            the rest of the system, update the model, or help them make more informed decisions. Feedback collection
-            facilitates breakthrough achievement.
+            the rest of the system, update the model, or help them make more informed decisions. 
+            Categories of helpful feedback can facilitate achieving breakthroughs.
         </p>
         <p>
-            This process keeps the model up-to-date and provides better living documentation than a discrete pile of
+            Scenario Huntnig keeps the model up-to-date and provides better living documentation than a discrete pile of
             gherkin
             scenarios stakeholders never bother reading once implemented.
 
         </p>
         <br>
- 
+
         <p>
         <h3>Conclusion</h3>
-        Scenario hunting helps to keep the model more practical and precise. It allows developers to focus on what
-            matters
-            and keep the living documentation alive. It also enables developers to treat modeling and implementation as
-            a single
-            task, improving their productivity and mental health because they incur less cognitive switching penalty.
+        Using Scenario Hunting, you keep your models more practical and precise. Scenario Hunting allows developers to focus on what
+        matters
+        and keep the living documentation alive. It also enables them to treat modeling and implementation as
+        a single
+        task, improving their productivity and mental health because they incur less cognitive switching penalty using Scenario Hunting.
         </p>
-            <p>
+        <p>
 
-        Scenario hunting reduces the gap between modeling and implementation. You reflect the exact model as code and
-        protect the modeling proposal from deviation while implementing it. Scenario hunting helps developers to stay
-        focused on the model and leverages the compiler to reveal potential hidden complexities behind proposed solutions.
+            Scenario Hunting reduces the gap between modeling and implementation paradigms. You reflect the model proposal as code
+            and
+            protect it from deviation while implementing it. Scenario Hunting helps developers to
+            stay
+            focused on the model and leverages the compiler to reveal potential hidden complexities behind proposed
+            solutions.
 
 
 
 
 
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
         </p>
     </div>
 
@@ -284,7 +303,8 @@
                 <div>Build Faster</div>
                 <div>
                     <p>
-                        Be more productive and focus on what matters by automating the unimportant costly jobs and minimizing the navigation constraint between the code and model proposal.
+                        Be more productive and focus on what matters by automating the unimportant costly jobs and
+                        minimizing the navigation constraint between the code and model proposal.
 
                     </p>
                 </div>
@@ -294,7 +314,8 @@
                 <div>Focus on Model</div>
                 <div>
                     <p>
-                        Focus on what deserves your attention (the design). Derive code from the model. Deal with code on
+                        Focus on what deserves your attention (the design). Derive code from the model. Deal with code
+                        on
                         the sidelines.
                     </p>
                 </div>
@@ -314,7 +335,8 @@
                 <div>Task Switching</div>
                 <div>
                     <p>
-                        Treat modeling and coding as a single task to minimize the task-switching penalty. It focuses you on a single task at a time without loosing the track.
+                        Treat modeling and coding as a single task to minimize the task-switching penalty. It focuses
+                        you on a single task at a time without loosing the track.
                     </p>
                 </div>
             </div>
@@ -325,7 +347,8 @@
                 <div>Product Quality</div>
                 <div>
                     <p>
-                        Focusing on a single task at a time while keeping track of its relationship with the rest of the system improves the quality of the resulting product.
+                        Focusing on a single task at a time while keeping track of its relationship with the rest of the
+                        system improves the quality of the resulting product.
                     </p>
                 </div>
             </div>
@@ -334,7 +357,8 @@
                 <div>Shorten Feedback Loops</div>
                 <div>
                     <p>
-                        Stay focused on the model, quickly drill down a bit of it at a time, acquire a deeper insight, share the feedback, and improve the model accordingly.
+                        Stay focused on the model, quickly drill down a bit of it at a time, acquire a deeper insight,
+                        share the feedback, and improve the model accordingly.
                     </p>
                 </div>
             </div>
@@ -343,7 +367,8 @@
                 <div>Collaborative</div>
                 <div>
                     <p>
-                        You can integrate asynchronously and collaboratively adjust the model based on the feedback as per need.
+                        You can integrate asynchronously and collaboratively adjust the model based on the feedback as
+                        per need.
                     </p>
                 </div>
             </div>
@@ -352,7 +377,8 @@
                 <div>Complement Mob</div>
                 <div>
                     <p>
-                        Scenario Hunting accelerates and facilitates the driver’s job in a mob setting, revealing more accurate insight.
+                        Scenario Hunting accelerates and facilitates the driver’s job in a mob setting, revealing more
+                        accurate insight.
                     </p>
                 </div>
             </div>
