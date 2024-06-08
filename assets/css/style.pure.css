@@ -1,14 +1,12 @@
 .col {
     text-align: center;
     margin: 5px;
-    /* background-color: #1557991a; */
     background-color: #f4faff;
 
 }
 
 .col div:first-child {
     background-color: #159957;
-    /* background-color: #155799; */
     color: white;
     height: 42px;
     text-align: center;
@@ -32,7 +30,6 @@
 
 
 
-/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap); */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap|Helvetica+Neue|Helvetica|Arial|sans-serif);
 
 html {
@@ -195,12 +192,8 @@ a:hover {
 .page-header {
     color: #fff;
     text-align: center;
-    background-color: #159957;
-    /* background-image: url("https://cdn.jsdelivr.net/gh/ScenarioHunting/website/assets/images/es-to-sh.jpg"); */
-    /* background-image: linear-gradient(120deg, #155799, #159957);*/
-     background-image: linear-gradient(120deg, #155799, #991515);
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.83) 165px, rgba(47, 54, 66, 0.75)),
-        url("https://cdn.jsdelivr.net/gh/ScenarioHunting/website/assets/images/es-to-sh.jpg"); */
+    background-color: #159957;   
+    background-image: linear-gradient(120deg, #155799, #991515);
     background-size: contain;
     box-shadow: 11px 15px 4px 0px rgb(0 0 0 / 39%);
 }
@@ -210,10 +203,7 @@ a:hover {
     height: 10px;
     color: #fff;
     background-color: #159957;
-    /* background-image: url("https://cdn.jsdelivr.net/gh/ScenarioHunting/website/assets/images/es-to-sh.jpg"); */
     background-image: linear-gradient(120deg, #0a5139, #531f5e);
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.83) 165px, rgba(47, 54, 66, 0.75)),
-        url("https://cdn.jsdelivr.net/gh/ScenarioHunting/website/assets/images/es-to-sh.jpg"); */
     background-size: contain;
 }
 
@@ -366,17 +356,10 @@ a:hover {
     color: #fff;
     text-align: center;
     background-color: #159957;
-    /* background-image: url("https://cdn.jsdelivr.net/gh/ScenarioHunting/website/assets/images/es-to-sh.jpg"); */
     background-image: linear-gradient(120deg, #155799, #159957);
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.83) 165px, rgba(47, 54, 66, 0.75)),
-        url("https://cdn.jsdelivr.net/gh/ScenarioHunting/website/assets/images/es-to-sh.jpg"); */
     background-size: contain;
 }
 
-/* blockquote{
-    text-align: center;
-    width:70%; margin: auto;
-}*/
 blockquote cite {
     float: right;
 }
@@ -515,16 +498,11 @@ footer {
   font-size: 14px;
   margin-bottom: 0;
   padding-bottom: 0;
-  color: #303941ab;/*#159957*/
+  color: #303941ab;
   text-shadow: 2px 2px 4px #00000052
 }
 
 .social-icons {
-  /* display: grid; 
-  grid-template-columns: repeat(auto-fit, minmax(30px, 1fr)); 
-  gap: 10px; 
-  place-items: center; 
-   */
    display: flex;
    justify-content: space-around;
    padding: 30px;
