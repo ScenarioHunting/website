@@ -190,6 +190,7 @@ a:hover {
 }
 
 .page-header {
+    padding-top: 125px !important;
     color: #fff;
     text-align: center;
     background-color: #159957;   
@@ -227,7 +228,8 @@ a:hover {
 
 .project-name {
     margin-top: 0;
-    margin-bottom: .1rem
+    margin-bottom: .1rem;
+    text-shadow: 4px 6px 3px #3c4b4a94;
 }
 
 @media screen and (min-width:64em) {
@@ -251,7 +253,8 @@ a:hover {
 .project-tagline {
     margin-bottom: 2rem;
     font-weight: 400;
-    opacity: .7
+    opacity: .7;
+    text-shadow: 3px 3px 5px #000000a3;
 }
 
 @media screen and (min-width:64em) {
