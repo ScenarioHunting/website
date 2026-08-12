@@ -1,1 +1,1 @@
-# www.scenariohunting.com
+# https://scenariohunting.github.io/website/
